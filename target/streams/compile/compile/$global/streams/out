@@ -1,4 +1,0 @@
-[0m[[0m[33mwarn[0m] [0m[0m/home/razor/projects/scala/blockchain/src/main/scala/Main.scala:199:3: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses[0m
-[0m[[0m[33mwarn[0m] [0m[0m		"ok"[0m
-[0m[[0m[33mwarn[0m] [0m[0m		^[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
