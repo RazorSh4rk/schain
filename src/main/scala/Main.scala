@@ -201,14 +201,14 @@ object Main extends App {
 	get("/nodes/resolve", (req, res) => {
 		val chain = new Gson().toJson(blockchain.chain.toList.asJava)
 		if(blockchain.consensus()){
-			"""
+			s"""
 			{
 			"message" : "Our chain was replaced",
 			"chain" : ${chain}
 			}
 			"""
 		}else{
-			"""
+			s"""
 			{
 			"message" : "Our chain is authoritative",
 			"chain" : ${chain}
